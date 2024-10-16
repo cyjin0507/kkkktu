@@ -18,7 +18,13 @@
     </div>
 
     <div>
-        <input type="number" class="word-length" value="6" min="2" max="999999">
+        <label for="word-length">글자 최대 범위 수</label>
+        <input type="number" id="word-length" value="8" min="2" max="999999">
+    </div>
+
+    <div>
+        <label for="is-counter">한방단어 표시</label>
+        <input type="checkbox" id="is-counter" checked>
     </div>
 
     <div id="list"></div>
